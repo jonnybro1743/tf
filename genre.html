@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="genre.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-container">
+            <li><a href="index.html">Movieflix</a></li>
+            <li><a href="genre.html">GENRES</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <a href="profilesetting.html" class="signin">Profile</a>
+        </ul>
+    </nav>
+   
+    <div class="main">
+        <div class="moviesmain">
+            <div class="genre"></div>
+       
+            <div class="movies-container">
+                <div class="firstRow content-container">
+                    <div class="content1" id="G1" onclick="openPopup('G1')"></div>
+                    <div class="content1" id="G2" onclick="openPopup('G2')"></div>
+                    <div class="content1" id="G3" onclick="openPopup('G3')"></div>
+                    <div class="content1" id="G4" onclick="openPopup('G4')"></div>
+                    <div class="content1" id="G5" onclick="openPopup('G5')"></div>
+                    <div class="content1" id="G6" onclick="openPopup('G6')"></div>
+                    <div class="content1" id="G7" onclick="openPopup('G7')"></div>
+                </div>
+                <div class="secondRow content-container">
+                    <div class="content1" id="G8" onclick="openPopup('G8')"></div>
+                    <div class="content1" id="G9" onclick="openPopup('G9')"></div>
+                    <div class="content1" id="G10" onclick="openPopup('G10')"></div>
+                    <div class="content1" id="G11" onclick="openPopup('G11')"></div>
+                    <div class="content1" id="G12" onclick="openPopup('G12')"></div>
+                    <div class="content1" id="G13" onclick="openPopup('G13')"></div>
+                    <div class="content1" id="G14" onclick="openPopup('G14')"></div>
+                </div>
+                <div class="firstRow content-container">
+                    <div class="content1" id="G15" onclick="openPopup('G15')"></div>
+                    <div class="content1" id="G16" onclick="openPopup('G16')"></div>
+                    <div class="content1" id="G17" onclick="openPopup('G17')"></div>
+                    <div class="content1" id="G18" onclick="openPopup('G18')"></div>
+                    <div class="content1" id="G19" onclick="openPopup('G19')"></div>
+                    <div class="content1" id="G20" onclick="openPopup('G20')"></div>
+                    <div class="content1" id="G21" onclick="openPopup('G21')"></div>
+                </div>
+                <div class="secondRow content-container">
+                    <div class="content1" id="G22" onclick="openPopup('G22')"></div>
+                    <div class="content1" id="G23" onclick="openPopup('G23')"></div>
+                    <div class="content1" id="G24" onclick="openPopup('G24')"></div>
+                    <div class="content1" id="G25" onclick="openPopup('G25')"></div>
+                    <div class="content1" id="G26" onclick="openPopup('G26')"></div>
+                    <div class="content1" id="G27" onclick="openPopup('G27')"></div>
+                    <div class="content1" id="G28" onclick="openPopup('G28')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <span class="popup__close" onclick="closePopup()">&times;</span>
+        <div class="popup__content">
+            <div id="popupimg">
+                <button class="watch">WATCH</button>
+            </div>
+            <div id="popup-paragraph">Movie details will go here.</div>
+            <div id="popup-details">Additional details here.</div>
+        </div>
+    </div>
+ <!-- Use defer attribute -->
+<script defer src="script.js"></script>
+<script defer src="api.js"></script>
+<script defer src="api2.js"></script>
+
+</body>
+</html>

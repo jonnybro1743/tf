@@ -1,0 +1,229 @@
+/* Global Styles */
+html {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  color: aliceblue;
+  height: 130px;
+  background-color: grey;
+}
+
+.btn {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  zoom: 1.5;
+}
+
+button {
+  border-radius: 10px;
+  background-color: grey;
+  outline: none;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.nav-item {
+  text-align: left;
+  padding: 15px 40px;
+}
+
+/* Reset Styles */
+* {
+  background: #000000;
+  margin: 0;
+  color: azure;
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Navigation Styles */
+.nav-container {
+  display: flex;
+  padding: 17px;
+  gap: 35px;
+  font-size: 1.15em;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-container a:hover {
+  color: #ffcc00;
+}
+
+.signin {
+  text-align: right;
+}
+
+nav {
+  background: rgb(38, 38, 37);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.nav-horizontal {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(201, 154, 65);
+  width: 200px;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+}
+
+/* Main Section Styles */
+.mainmain {
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Image Styles */
+.img,
+.img2,
+.img3 {
+  margin-top: 150px;
+}
+
+/* Container Styles */
+.container > li {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: yellow;
+  padding: 10px;text-align: center;
+  padding: 20px 0 0 0;
+}
+
+/* Section Styles */
+.section,
+.section2,
+.section3 {
+  color: #ffd500;
+  height: 480px;
+  font-size: 30px;
+  width: 500px; 
+}
+
+/* Header Styles */
+header > h1 {
+  font-size: 60px;
+  margin: 20px 0 20px 40px;
+  color: red; /* Replace with a valid color value */
+}
+.section > h2,
+.section2 > h2,
+.section3 > h2{
+  color: rgb(255, 42, 0);
+}
+/* Image Styles */
+img {
+  height: 480px;
+  width: 400px;
+}
+
+/* Button Image Styles */
+button > img {
+  height: 32px;
+  width: 32px;
+}
+
+/* Main Section Styles */
+.mainsection,
+.mainsection2,
+.mainsection3 {
+  display: flex;
+  margin: auto;
+  gap: 40px;
+}
+.main_img{
+  width:100%;height: 700px;
+}
+.footer {
+  background-color: #f00c0c;
+  color: #fff;
+  padding: 20px 0;
+  height: auto;
+}
+
+.footer-content {
+  display: flex;
+height: 200px;
+background-color: rgb(255, 4, 0);
+}
+
+.location,
+.contact,
+.faq {
+ background: #ff1900; 
+  margin-right: 20px;
+}
+
+.location h3,
+.contact h3,
+.faq h3 {
+  font-size: 1.2em;
+  background:rgb(255, 8, 0);margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.contact > p{
+  background: #ff0000;
+}
+.faq > li{
+  background: #ff0000;
+}
+.location > p{
+  background: #ff0000;
+}
+.faq>ul li {
+  margin-bottom: 8px;
+  background: rgb(255, 0, 0);
+}
+
+.faq>a {
+  background: rgb(255, 0, 0);
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+/* Additional styling can be added based on your design preferences */
